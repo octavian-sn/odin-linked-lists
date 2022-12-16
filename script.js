@@ -106,6 +106,20 @@ function LinkedList() {
             }
             console.log(string);
         },
+
+        // Insert node at index with value n
+        insertAt(value, index) {
+            let previous = this.at(index - 1);
+            let next = this.at(index);
+            previous.next = Node(value, next);
+        },
+
+        // Remove node at index
+        removeAt(index) {
+            let previous = this.at(index - 1);
+            let next = this.at(index + 1);
+            previous.next = next;
+        },
     }
 }
 
