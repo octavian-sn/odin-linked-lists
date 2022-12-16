@@ -1,5 +1,4 @@
-# odin-weather-app
-ProjectS: Linked Lists and Recursion
+# Linked Lists & Recursion projects
 
 [Linked Lists assignment](https://www.theodinproject.com/lessons/javascript-linked-lists)
 
